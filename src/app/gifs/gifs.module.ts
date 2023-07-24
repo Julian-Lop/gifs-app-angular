@@ -1,0 +1,24 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { HomePageComponent } from './pages/home/home-page.component';
+import { SearchBoxComponent } from './components/searchBox/search-box.component';
+import { CardListComponent } from './components/cardList/card-list.component';
+
+
+
+@NgModule({
+  declarations: [
+    HomePageComponent,
+    SearchBoxComponent,
+    CardListComponent
+  ],
+  imports: [
+    CommonModule
+  ],
+  exports: [
+    HomePageComponent
+  ]
+})
+export class GifsModule { 
+  
+}
