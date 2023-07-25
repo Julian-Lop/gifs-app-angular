@@ -23,7 +23,5 @@ export class SearchBoxComponent {
     this.gifService.searchTag(newTag)
 
     this.tagInput.nativeElement.value = ''
-
-    console.log({search: this.gifService.tagsHistory})
   }
 }
